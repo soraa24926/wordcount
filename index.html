@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <title>文字数チッカー</title>
+    <link rel="stylesheet" href="stylen.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="title-area">
+        <div class="title"><strong>文字数チェッカー</strong></div>
+      </div>
+      <div class="input-area">
+        <label for="goal" >目標文字数（半角数字入力）</label> 
+        <br>
+        <input type="number" placeholder="140(Twitter)" id="goal">
+        <br> 
+        <textarea id="comment" placeholder="ここに入力してください"></textarea> 
+      </div>
+      <div class="result-area">
+        <p id="result">・現在文字数　　　<span id="now">???</span> 文字
+          <br>・目標文字数まで　<span id="remaining" class="noover">???</span> 文字</p>      
+      </div>
+      <footer>©︎ asakasora 2021</footer>
+    </div>
+    <script src="mainn.js"></script>
+  </body>   
+</html>
